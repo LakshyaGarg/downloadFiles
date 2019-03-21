@@ -8,6 +8,3 @@ commands to run:
 1) mvn clean package
 2) java -jar target/test-project-1.0-SNAPSHOT.jar <file path>
 	example: java -jar target/test-project-1.0-SNAPSHOT.jar testFiles/testFile1
-
-
- 
