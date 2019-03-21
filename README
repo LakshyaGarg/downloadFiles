@@ -1,0 +1,13 @@
+Information:
+1) all the downloaded files will be found in "files" folder in the main repository.
+2) If the file with the given name already present in the "files" folder, then new file is generated with the format, <timestamp>_<filename>
+3) Some sample files are already present in testFiles folder in the package
+4) urls are expected to be line by line in the file
+
+commands to run:
+1) mvn clean package
+2) java -jar target/test-project-1.0-SNAPSHOT.jar <file path>
+	example: java -jar target/test-project-1.0-SNAPSHOT.jar testFiles/testFile1
+
+
+ 
